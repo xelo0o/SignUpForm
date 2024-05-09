@@ -1,0 +1,67 @@
+html{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: 'Norse';
+    src: url('fonts/Norse-Bold.otf');
+}
+
+body{
+    height: 100vh;
+    width:100vw;
+    margin:0;
+}
+
+.container{
+    display: flex;
+    height:100%;
+    width:100%;
+
+
+}
+
+.leftContent{
+    background-image: url(img/leafs.avif);
+    background-size: cover;
+    height:100vh;
+    width: 40vw;
+
+
+}
+
+.odinLogo{
+    height: 150px;
+    background-color: rgba(0, 0, 0, 0.596);
+    margin-top: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Norse';
+    color:#fff;
+    font-size: 100px;
+}
+
+.odinLogo img{
+    width:auto;
+    height:80%;
+}
+
+.rightContent{
+    width: 60%;
+    padding-left:20px;
+
+}
+
+
+
+
+
+
+
+.loginLink {
+    text-decoration: none;
+    color: green;
+}
