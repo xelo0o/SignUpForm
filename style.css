@@ -125,7 +125,7 @@ input:valid{
     background-color: white;
 }
 
-input[type=password]:invalid{
+input[type="password"]:focus:invalid{
     border-color: red;
 }
 
