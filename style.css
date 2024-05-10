@@ -2,6 +2,7 @@ html{
     margin: 0;
     padding:0;
     box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 @font-face {
@@ -19,21 +20,11 @@ body{
     display: flex;
     height:100%;
     width:100%;
-
-
 }
 
-.leftContent{
-    background-image: url(img/leafs.avif);
-    background-size: cover;
-    height:100vh;
-    width: 40vw;
-
-
-}
 
 .odinLogo{
-    height: 150px;
+    height: 200px;
     background-color: rgba(0, 0, 0, 0.596);
     margin-top: 300px;
     display: flex;
@@ -44,6 +35,26 @@ body{
     font-size: 100px;
 }
 
+
+.signUpForm label{
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #4b4b4b;
+}
+
+.signUpForm input{
+    height:24px;
+    border: 1px solid #a3a3a3;
+    border-radius: 3px;
+}
+
+.leftContent{
+    background-image: url(img/leafs.avif);
+    background-size: cover;
+    height:100vh;
+    width: 40vw;
+}
+
 .odinLogo img{
     width:auto;
     height:80%;
@@ -51,17 +62,50 @@ body{
 
 .rightContent{
     width: 60%;
-    padding-left:20px;
-
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: rgb(226, 226, 226);
+    
 }
 
+.topInfo{
+    font-size: 24px;
+    font-weight: 400;
+    margin-left:40px;
+}
 
+.mainLegend{
+    font-size: 24px; 
+    font-weight: 600;
+    margin: 10px 0;
+}
 
+.formInput{
+    background-color: #fff;
+    padding:10px 40px 20px 40px;
+}
 
-
-
+.createButton{
+    padding: 10px 30px;
+    background-color:#467a46;
+    color:#fff;
+    border-radius: 3px;
+    border: none;
+    font-size: 18px;
+    margin: 20px 0 0 40px;
+}
 
 .loginLink {
     text-decoration: none;
-    color: green;
+    color: #467a46;
+}
+
+.bottomInfo{
+    padding-left: 40px;
+}
+
+
+.leftInput div, .rightInput div{
+ margin-bottom:15px;
 }
