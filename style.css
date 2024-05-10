@@ -22,11 +22,10 @@ body{
     width:100%;
 }
 
-
 .odinLogo{
     height: 200px;
     background-color: rgba(0, 0, 0, 0.596);
-    margin-top: 300px;
+    margin-top: 350px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -35,15 +34,16 @@ body{
     font-size: 100px;
 }
 
-
 .signUpForm label{
-    font-size: 14px;
+    font-size: 12px;
     text-transform: uppercase;
-    color: #4b4b4b;
+    color: #616161;
+    font-weight: 600;
 }
 
 .signUpForm input{
     height:24px;
+    width:250px;
     border: 1px solid #a3a3a3;
     border-radius: 3px;
 }
@@ -60,40 +60,48 @@ body{
     height:80%;
 }
 
+.inputContainer{
+    display: flex;
+    gap:100px;
+}
+
 .rightContent{
     width: 60%;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    background-color: rgb(226, 226, 226);
-    
+    background-color: rgb(226, 226, 226);    
 }
 
 .topInfo{
-    font-size: 24px;
-    font-weight: 400;
+    font-size: 26px;
+    font-weight: 600;
     margin-left:40px;
+    color: #414141;
 }
 
 .mainLegend{
+    color:#414141;
     font-size: 24px; 
     font-weight: 600;
-    margin: 10px 0;
+    margin: 15px 0 25px 0;
 }
 
 .formInput{
     background-color: #fff;
     padding:10px 40px 20px 40px;
+    box-shadow: 0 2px 8px -2px gray;
 }
 
 .createButton{
     padding: 10px 30px;
     background-color:#467a46;
     color:#fff;
-    border-radius: 3px;
+    border-radius: 7px;
     border: none;
     font-size: 18px;
-    margin: 20px 0 0 40px;
+    margin: 30px 0 10px 40px;
+    cursor: pointer;
 }
 
 .loginLink {
@@ -109,3 +117,8 @@ body{
 .leftInput div, .rightInput div{
  margin-bottom:15px;
 }
+
+input:valid{
+    border-color:#467a46;
+}
+

@@ -16,18 +16,17 @@
         </div>
 
         <div class="rightContent">
-            <p class="topInfo">This is not a real online service! You know you need something like this in your life to help you realize your deepest dreams.
-            <br/>
-            You know you want to.
-            </p>
+            <div class="topInfo">
+                <p>This is not a real online service! You know you need something like this in your life to help you realize your deepest dreams.</p>
+            
+                <p>You know you want to.</p>
+            </div>            
 
             <form action="#" method="post" class="signUpForm">
                 <div class="formInput">
                 <legend class="mainLegend">Let's do this!</legend>
-                
-                    
+                <div class="inputContainer">
                     <div class="leftInput">
-
                         <div>
                             <label for="first_name">First Name</label>
                             <br>
@@ -42,19 +41,37 @@
                         <div>
                             <label for="password">Password</label>
                             <br>
-                            <input type="text" id="passowrd" name="email" required>
+                            <input type="password" id="passowrd" name="passowrd" required>
                         </div>
                         
                     </div>
 
 
                     <div class="rightInput">
+                        <div>
+                            <label for="last_name">last Name</label>
+                            <br>
+                            <input type="text" id="last_name" name="last_name" required>
+                        </div>
 
+                        <div>
+                            <label for="phone_number">phone number</label>
+                            <br>
+                            <input type="tel" id="phone_number" name="phone_number" required>
+                        </div>
+                        <div>
+                            <label for="confirm_password">confirm Password</label>
+                            <br>
+                            <input type="confirm_password" id="confirm_passowrd" name="confirm_passowrd" required>
+                        </div>
                     </div>
                 </div>
+                    
+                    
+                </div>
 
-
-                <button class="createButton">Create Account</button>
+                
+                <button  type="submit" class="createButton">Create Account</button>
             </form>
 
             
@@ -62,7 +79,7 @@
             <p class="bottomInfo">Already have an account? <a href="#" class="loginLink">Log in</a></p>
 
         </div>
-
+        
 
     </div>
 </body>
